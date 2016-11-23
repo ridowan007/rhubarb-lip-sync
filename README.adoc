@@ -197,6 +197,17 @@ Rhubarb Lip-Sync only produces good results when you give it recordings in Engli
 
 Rhubarb Lip-Sync tries to imitate the animation style used in classic 2D animated cartoons. The results look stylized, and that's intentional. If you're working on a realistic 3D game or movie, Rhubarb Lip-Sync may not be the best choice.
 
+=== Linux build
+
+On ubuntu 16.04, the following work should be suffice to build it. On the cloned directory,
+
+[source]
+----
+sudo apt-get --install-suggests install cmake libboost-dev
+cmake .
+make
+----
+
 == Tell me what you think!
 
 I'd love to hear from you! If you need help or have any suggestions, feel free to https://github.com/DanielSWolf/rhubarb-lip-sync/issues[create an issue].
