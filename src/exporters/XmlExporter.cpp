@@ -1,4 +1,5 @@
 #include "XmlExporter.h"
+#include <boost/version.hpp>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/xml_parser.hpp>
 #include "exporterTools.h"
